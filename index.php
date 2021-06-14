@@ -17,19 +17,18 @@
   <div class="page-content page-container" id="page-content">
   	<div class="padding">
   		<div class="row">
-  			<div class="col-sm-6">
-  				<div class="list_user">
+                   <div class="col-sm-6">
+  		   <div class="list_user">
   					
-  				</div>
-  			</div>
-  		</div>
+  		  </div>
+  	      </div>
+  	   </div>
   	</div>
-  </div>
+      </div>
 </body>
 <script type="text/javascript">
 	$(document).ready(function(){
       setInterval(function(){
-
           $.ajax({
             url:"fetch_user.php",
             success:function(data)
